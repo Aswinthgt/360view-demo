@@ -1,0 +1,30 @@
+<div class="row mt-5">
+  <div class="col-12">
+    <app-upload-image (imageEvent)="addImage($event)"></app-upload-image>
+  </div>
+</div>
+
+<div class="row mt-5">
+  <div class="col-12">
+    <app-image-list
+      [newLists]="lists"
+      (selectedImage)="src = $event"
+      (deletedImage)="deleteImage($event)"
+    ></app-image-list>
+  </div>
+</div>
+
+<div class="row py-5">
+  <div class="col-12 d-flex justify-content-center">
+    @if(src){
+    <agt360image-view
+      [src]="src"
+      [width]="width"
+      [height]="height"
+      [autoRotate]="autoroatate"
+    ></agt360image-view>
+    }@else {
+        <img src="./no-image.png" alt="">
+    }
+  </div>
+</div>

@@ -1,0 +1,1 @@
+export const image1 = 'https://l13.alamy.com/360/T72C68/full-seamless-spherical-panorama-360-degrees-angle-view-golden-autumn-near-the-shore-of-wide-lake-in-sunny-day-360-panorama-in-equirectangular-projec-T72C68.jpg'

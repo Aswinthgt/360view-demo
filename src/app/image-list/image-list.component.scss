@@ -1,0 +1,12 @@
+.mat-mdc-chip-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    /* Optional: Adds spacing between chips */
+    overflow: hidden;
+    /* Ensures content stays within the container */
+}
+
+:host .chip-option {
+    width: auto;
+}
