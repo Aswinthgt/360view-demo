@@ -30,7 +30,6 @@ export class ViewComponent implements OnInit {
   };
 
   ngOnInit(): void {
-    console.log(window?.innerWidth)
     this.src = undefined
     this.width = window?.innerWidth / 1.2;
     this.height = 500;

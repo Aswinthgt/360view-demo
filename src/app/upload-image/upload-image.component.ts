@@ -11,19 +11,6 @@ import { MatIconModule } from '@angular/material/icon';
 })
 export class UploadImageComponent {
 
-  pickerOpts = {
-    types: [
-      {
-        description: "Images",
-        accept: {
-          "image/*": [".png", ".gif", ".jpeg", ".jpg"],
-        },
-      },
-    ],
-    excludeAcceptAllOption: true,
-    multiple: false,
-  };
-
   imageEvent = output<string>()
 
   open(event: Event) {
