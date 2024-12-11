@@ -7,11 +7,11 @@ import { MatSnackBarModule, MatSnackBar } from '@angular/material/snack-bar';
 
 
 @Component({
-  selector: 'app-view',
-  standalone: true,
-  imports: [UploadImageComponent, ImageListComponent, Agt360imageViewComponent, MatSnackBarModule ],
-  templateUrl: './view.component.html',
-  styleUrl: './view.component.scss',
+    selector: 'app-view',
+    standalone: true,
+    imports: [UploadImageComponent, ImageListComponent, Agt360imageViewComponent, MatSnackBarModule],
+    templateUrl: './view.component.html',
+    styleUrl: './view.component.scss'
 })
 export class ViewComponent implements OnInit {
 
